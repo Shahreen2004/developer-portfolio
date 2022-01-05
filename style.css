@@ -12,9 +12,16 @@ BODY{
     margin: 0 0 100px 0;
 
 }
+h2{
+    font-size: 20px;
+}
+
+h1{
+    font-size: 30px;
+}
 
 .half-width{
-    width: 60%;
+    width: 80%;
     padding-left: 5%;
     margin: 2%;
     font-size: 25px;
@@ -51,10 +58,30 @@ font-weight: 100;
     background-repeat: no-repeat;
     background-position: right;
 }
+.experience{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
 .full-stack{
     width: 30%;
     margin-left: 5%;
     margin-right: 5%;
     padding-left: 20px;
-    box-shadow:10px 10px 20px grey;
+    box-shadow:10px 10px 30px grey;
+    border-radius: 10px; 
+}
+#a{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, rgb(123, 157, 209));
+    border-image-slice: 1;
+}
+#b{
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(255, 51, 0), rgb(123, 157, 209));
+    border-image-slice: 1;
+}
+#for-padding{
+    padding-right: 100px;
 }
