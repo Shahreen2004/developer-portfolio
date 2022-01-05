@@ -1,9 +1,10 @@
 BODY{
     font-family: 'Oswald', sans-serif;
+    margin: 0;
 }
 
 .b{
-    color: orange;
+    color: rgb(25, 219, 155);
 }
 section{
     display: flex;
@@ -11,15 +12,26 @@ section{
 .a{
     width: 50%;
     padding-left: 5%;
+    margin: 2%;
 }
 .a img{
-    width: 65%;
+    width: 80%;
 }
 
 .link-button{
 text-decoration: none;
-background-image: linear-gradient(rgb(234, 0, 255), rgb(71, 255, 246) );
- padding: 10px 30px;
+background-image: linear-gradient(yellow, red );
 border-radius: 5px;
+padding: 0 20px;
+color: blue;
+box-shadow: 10px 20px 40px black;
 
+font-weight: 700;
+
+
+
+}
+.top-benar{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
 }
