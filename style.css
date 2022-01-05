@@ -7,19 +7,23 @@ BODY{
 .b{
     color: #19db9b;
 }
-section{
+.flexible-container{
     display: flex;
     margin: 0 0 100px 0;
 
 }
+
 .half-width{
-    width: 50%;
+    width: 60%;
     padding-left: 5%;
     margin: 2%;
+    font-size: 25px;
 }
 .half-width img{
-    width: 50%;
+    width: 90%;
     padding-left: 5%;
+    margin: 2%;
+    font-size: 25px;
 
 }
 
@@ -31,7 +35,7 @@ padding: 0 20px;
 color: blue;
 box-shadow: 10px 20px 40px black;
 
-font-weight: 700;
+font-weight: 100;
 
 
 
@@ -46,4 +50,11 @@ font-weight: 700;
     padding-top: 5%;
     background-repeat: no-repeat;
     background-position: right;
+}
+.full-stack{
+    width: 30%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    box-shadow:10px 10px 20px grey;
 }
